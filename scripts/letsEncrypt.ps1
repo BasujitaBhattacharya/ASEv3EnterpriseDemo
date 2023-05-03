@@ -1,4 +1,4 @@
-# Generate let's encrypt certificate in Azure
+## Generate let's encrypt certificate in Azure
 param(
     [Parameter(Mandatory = $true)]
     [string]$certNames,
