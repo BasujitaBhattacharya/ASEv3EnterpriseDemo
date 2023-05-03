@@ -17,7 +17,7 @@
 
 The purpose of this demo is to illustrate a common setup leveraging App Service Environment v3 (ASE) with a hub and multiple spokes.
 
-The App Service Environment will be of type internal, all ingress will be going into Azure Application Gateway with WAF and all egress thru the Azure Firewall when they need to consume other resources from other spokes or the Internet.
+The App Service Environment will be of type internal, all ingress will be going into Azure Application Gateway with WAF and all egress through the Azure Firewall when they need to consume other resources from other spokes or the Internet.
 
 # Architecture
 
