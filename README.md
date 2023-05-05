@@ -123,7 +123,7 @@ You will need to create some [GitHub repository secrets](https://docs.github.com
 | CERTIFICATE_PASSWORD | The password of your pfx file |
 | CUSTOM_DOMAIN_FIBONACCI_API | The custom domain of the fibonacci API like fibonacciapi.contoso.com |
 | CUSTOM_DOMAIN_WEATHER_API | The custom domain of the weather API like weatherapi.contoso.com |
-| PA_TOKEN | Needed to create GitHub repository secret within the GitHub action |  [Github Action](https://github.com/gliech/create-github-secret-action)
+| PA_TOKEN | Needed to create GitHub repository secret within the GitHub action (The GitHub Secrets API requires the repo scope to modify secrets in private repositories and the public_repo scope for public repositories. It requires admin:org scope to modify secrets in an organization.) |  [Github Action](https://github.com/gliech/create-github-secret-action)
 | VM_PASSWORD | The password needed for the Github Self Runner |
 | VM_USERNAME | The username needed for the Github Self Runner |
 
