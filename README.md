@@ -69,7 +69,7 @@ Be sure you already configured your **Azure Public DNS Zone**.
 First create a service principal running the following command.
 
 ```Bash
-$ az ad sp create-for-rbac --name <ServicePrincipalName> --sdk-auth --role contributor --scope '/subscriptions/{subscriptionId}'
+ az ad sp create-for-rbac --name <ServicePrincipalName> --sdk-auth --role contributor --scope '/subscriptions/{subscriptionId}'
 ```
 
 Take note of the output you will need it to create Github Secrets.
@@ -81,7 +81,7 @@ This script will connect to your Azure Subscription passed in parameters and cre
 First run this command in a Windows PowerShell terminal
 
 ```bash
-$ Set-PAServer LE_PROD
+Set-PAServer LE_PROD
 ```
 
 Now with the information retrieved when you created the **service principal** you can create your certificate.
@@ -91,7 +91,7 @@ Be sure your **Service Principal** have access to modify your Azure Public DNS Z
 *Be sure the username, password and certificate password are in double quotes**
 
 ```Bash
-$ .\letsEncrypt.ps1 -certNames *.contoso.com -acmeContact john@contoso.com -aZSubscriptionId <subId> -aZTenantId <tenantId> -aZAppUsername "<sp_clientId>" -aZAppPassword "<sp_password>" -pfxPassword "<pfxPassword>"
+.\letsEncrypt.ps1 -certNames *.contoso.com -acmeContact john@contoso.com -aZSubscriptionId <subId> -aZTenantId <tenantId> -aZAppUsername "<sp_clientId>" -aZAppPassword "<sp_password>" -pfxPassword "<pfxPassword>"
 ```
 
 When the command is finished(it will take a few minutes to complete execution), a new folder called **pa** will be created inside the scripts folder.
