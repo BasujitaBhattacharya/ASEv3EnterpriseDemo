@@ -117,7 +117,7 @@ You will need to create some [GitHub repository secrets](https://docs.github.com
 
 | Secret Name | Value | Link
 |-------------|-------|------|
-| AZURE_CREDENTIALS | The service principal credentials needed in the Github Action | [GitHub Action](https://github.com/marketplace/actions/azure-login)
+| AZURE_CREDENTIALS | The service principal credentials needed in the Github Action(complete JSON string) | [GitHub Action](https://github.com/marketplace/actions/azure-login)
 | AZURE_SUBSCRIPTION | The subscription ID where the resources will be created |
 | CERTIFICATE_DATA | The base64 value of your pfx certificate file |
 | CERTIFICATE_PASSWORD | The password of your pfx file |
