@@ -104,7 +104,7 @@ If you browse in it inside the last child folder of **acme-v02.api.letsencrypt.o
 
 You will need to create GitHub secrets to configure this repository.  Two of them are related to your certificate and needed when communicating with the Application Gateway.
 
-You will need to find the base64 value of your certificate and save it in a GitHub Secret.  To do so run the following command and get the value from the text file generated.
+You will need to find the base64 value of your certificate and save it in a GitHub Secret.  To do so run the following command from the directory in which cert.pfx was created and get the value from the text file generated.
 
 ```
 $fileContentBytes = get-content 'cert.pfx' -Encoding Byte
