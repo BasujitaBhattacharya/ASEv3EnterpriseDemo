@@ -94,7 +94,7 @@ Be sure your **Service Principal** have access to modify your Azure Public DNS Z
 $ .\letsEncrypt.ps1 -certNames *.contoso.com -acmeContact john@contoso.com -aZSubscriptionId <subId> -aZTenantId <tenantId> -aZAppUsername "<sp_clientId>" -aZAppPassword "<sp_password>" -pfxPassword "<pfxPassword>"
 ```
 
-When the command is finished, a new folder called **pa** will be created inside the scripts folder.
+When the command is finished(it will take a few minutes to complete execution), a new folder called **pa** will be created inside the scripts folder.
 
 If you browse in it inside the last child folder of **acme-v02.api.letsencrypt.org** you will see those files. The important file is called cert.pfx.
 
