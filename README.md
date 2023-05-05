@@ -78,7 +78,7 @@ Now go to the folder scripts, there you have a powershell called **letsEncrypt.p
 
 This script will connect to your Azure Subscription passed in parameters and create a **TXT** challenge in your **Azure DNS Public Zone**.  
 
-First run this command in a PowerShell terminal
+First run this command in a Windows PowerShell terminal
 
 ```bash
 $ Set-PAServer LE_PROD
