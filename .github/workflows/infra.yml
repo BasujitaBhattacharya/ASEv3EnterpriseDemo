@@ -8,7 +8,7 @@ jobs:
 
     env:
       DEPLOYMENT_NAME: ase-deployment
-      REGION: 'canadacentral' # You can change this to reflect the region where you deploy your ASE
+      REGION: 'eastus' # You can change this to reflect the region where you deploy your ASE
 
     runs-on: ubuntu-latest
 
