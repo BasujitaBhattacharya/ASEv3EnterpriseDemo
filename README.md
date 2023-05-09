@@ -170,8 +170,10 @@ The destination will be equal to the subnet CIDR that you can find in the vnet-s
 Because the Application Service Environment is of type internal, you will need to deploy the APIs using [GitHub Self Runner](https://docs.github.com/en/actions/hosting-your-own-runners/about-self-hosted-runners).
 
 Connect to VM created in the resource group **rg-hub-ase-demo** and follow the installation procedure.
+
 If you are not able to SSH into your VM, Access the serial console by going to Can't connect? > Run a comprehensive SSH connectivity test.
-From there execute the steps to register a self hosted runner [link](https://docs.github.com/en/actions/hosting-your-own-runners/managing-self-hosted-runners/adding-self-hosted-runners)
+
+From there execute the steps to register a self hosted runner [Add Self Hosted Runner](https://docs.github.com/en/actions/hosting-your-own-runners/managing-self-hosted-runners/adding-self-hosted-runners)
 
 If you want to run the runner agent as a service (recommended) follows this [link](https://docs.github.com/en/actions/hosting-your-own-runners/configuring-the-self-hosted-runner-application-as-a-service) after the installation.
 
