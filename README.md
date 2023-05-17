@@ -200,6 +200,7 @@ You will need to configure those two entries in your DNS Server, here for exampl
 ## Test the apis
 
 Now you should be able to test the weatherapi, to test it open a browser and enter this URL (replace weatherapi.hugogirard.net with your custom domain).
+Note the URL Pattern > https://weatherapi.hugogirard.net/swagger/index.html
 
 <img src='https://raw.githubusercontent.com/hugogirard/asev3enterpriseDemo/main/pictures/weatherapi.png' />
 
