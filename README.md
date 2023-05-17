@@ -199,7 +199,7 @@ You will need to configure those two entries in your DNS Server, here for exampl
 
 ## Test the apis
 
-Now you should be able to test the weatherapi, to test it open a browser and enter this URL (replace weatherapi.bbhatta.com with your custom domain).
+Now you should be able to test the weatherapi, to test it open a browser and enter this URL (replace weatherapi.hugogirard.net with your custom domain).
 
 <img src='https://raw.githubusercontent.com/hugogirard/asev3enterpriseDemo/main/pictures/weatherapi.png' />
 
